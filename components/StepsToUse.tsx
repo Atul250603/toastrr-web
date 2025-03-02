@@ -21,7 +21,7 @@ export default function App() {
     const toastCode = `import { toast } from 'toastrr';
 
 function showToast() {
-    toast.success('This is an info toast', {
+    toast.success('This is a success toast', {
         theme: 'dark',
         duration: 'infinite',
         closeButton: true
