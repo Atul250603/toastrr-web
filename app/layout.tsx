@@ -1,4 +1,5 @@
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/react"
 import type { Metadata } from "next";
 import ClientWrapper from "@/components/ClientWrapper";
 export const metadata: Metadata = {
@@ -43,6 +44,7 @@ export default function RootLayout({
         <ClientWrapper>
           {children}
         </ClientWrapper>
+        <Analytics />
       </body>
     </html>
   );
