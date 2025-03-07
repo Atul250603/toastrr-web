@@ -107,7 +107,7 @@ export default function ToastForm() {
                 <div className="text-lg font-bold whitespace-nowrap sm:mr-2">Duration</div>
                 <div className='flex flex-col sm:flex-row gap-2 items-start sm:items-center justify-center w-full'>
                 <div className="inline-flex items-center rounded-md" role="group">
-                <span className="me-3 text-md font-medium text-gray-900 dark:text-gray-300">Infinite Duration</span>
+                <span className="me-3 text-md font-medium text-gray-900">Infinite Duration</span>
                 <label className="inline-flex items-center cursor-pointer">
                     <input type="checkbox" checked={infinite} onChange={(e) => { setInfinite(e.target.checked) ; setDuration('infinite') }} className="sr-only peer"/>
                     <div className="relative w-11 h-6 bg-gray-200 peer-focus:outline-none rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:w-5 after:h-5 after:transition-all dark:border-gray-600 peer-checked:bg-gray-700"></div>
