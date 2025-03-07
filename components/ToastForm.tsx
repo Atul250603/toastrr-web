@@ -52,7 +52,7 @@ export default function ToastForm() {
     }
     return (
         <div className="flex flex-col w-full sm:w-3/4 xl:w-1/2 justify-center p-4">
-            <div className="text-3xl sm:text-4xl font-bold text-center my-[20px] underline">Configure & Raise Toast</div>
+            <div className="text-3xl sm:text-4xl font-bold text-center my-[20px] mt-[40px] underline">Configure & Raise Toast</div>
 
             <div className="flex flex-col sm:flex-row gap-2 items-start sm:items-center mt-4">
                 <div className="text-lg font-bold whitespace-nowrap sm:mr-2">Position</div>
