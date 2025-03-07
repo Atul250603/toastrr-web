@@ -42,7 +42,6 @@ export default function ConfigurationList() {
                             className="px-4 pr-8 py-2 text-sm font-medium rounded-md 
                                 text-gray-700 bg-transparent 
                                 shadow-[inset_0_0_2px_rgba(0,0,0,0.3)]
-                                dark:text-white
                                 hover:cursor-pointer 
                                 focus:outline-none"
                         >
