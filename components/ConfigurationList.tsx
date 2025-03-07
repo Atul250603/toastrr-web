@@ -7,7 +7,7 @@ export default function ConfigurationList() {
     const [selectedTab, setSelectedTab] = useState<'toaster' | 'toast'>('toaster');
     const [selectedToastType, setSelectedToastType] = useState<'regular' | 'promise'>('regular');
     
-    const buttonStyle = (selectedValue: string, current: string) => `px-3 py-2 sm:px-4 sm:py-2 text-sm font-medium hover:cursor-pointer dark:text-white dark:hover:text-white dark:hover:bg-gray-700 dark:focus:bg-gray-700 ${
+    const buttonStyle = (selectedValue: string, current: string) => `px-3 py-2 sm:px-4 sm:py-2 text-sm font-medium hover:cursor-pointer ${
         selectedValue === current ? 'bg-gray-700 text-white dark:bg-gray-700' : 'text-gray-700 bg-transparent shadow-[inset_0_0_2px_rgba(0,0,0,0.3)]'
     }`;
 
