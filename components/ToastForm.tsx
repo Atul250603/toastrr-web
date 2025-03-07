@@ -11,7 +11,7 @@ export default function ToastForm() {
     const [closeButton, setCloseButton] = useAtom<boolean>(toastCloseButton);
     const [theme, setTheme] = useAtom<typeToastTheme>(toastTheme);
     const [toastType, setToastType] = useState<typeToastType>('success');
-    const buttonStyle = (selectedValue: string, position: string) => `p-2 sm:px-4 sm:py-2 text-sm font-medium hover:cursor-pointer dark:text-white dark:hover:text-white dark:hover:bg-gray-700 dark:focus:bg-gray-700 ${
+    const buttonStyle = (selectedValue: string, position: string) => `p-2 sm:px-4 sm:py-2 text-sm font-medium hover:cursor-pointer ${
         selectedValue === position ? 'bg-gray-700 text-white dark:bg-gray-700' : 'text-gray-700 bg-transparent shadow-[inset_0_0_2px_rgba(0,0,0,0.3)]'
     }`;
     const generatePromise = () => {
