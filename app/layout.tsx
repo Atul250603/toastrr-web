@@ -28,6 +28,7 @@ export const metadata: Metadata = {
     title: "Toastrr - Modern Toast Notifications for React",
     description: "Create beautiful, accessible toast notifications with ease in React applications",
     images: ['https://toastrr.vercel.app/toastrr.png'],
+    creator: "@AtulGoyal383989",
   },
   robots: {
     index: true,
