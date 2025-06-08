@@ -15,7 +15,10 @@ export const metadata: Metadata = {
     siteName: "Toastrr",
     images: [
       {
-        url: 'https://toastrr.vercel.app/toastrr.png'
+        url: 'https://toastrr.vercel.app/toastrr.png',
+        width: 1200,
+        height: 630,
+        alt: "Toastrr - Modern Toast Notifications for React",
       }
     ]
   },
@@ -23,12 +26,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Toastrr - Modern Toast Notifications for React",
     description: "Create beautiful, accessible toast notifications with ease in React applications",
-    images: [
-      {
-        url: 'https://toastrr.vercel.app/toastrr.png',
-        alt: "Toastrr - Modern Toast Notifications for React"
-      }
-    ]
+    images: ['https://toastrr.vercel.app/toastrr.png'],
   },
   robots: {
     index: true,
