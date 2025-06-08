@@ -13,11 +13,22 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     siteName: "Toastrr",
+    images: [
+      {
+        url: 'https://toastrr.vercel.app/toastrr.png'
+      }
+    ]
   },
   twitter: {
     card: "summary_large_image",
     title: "Toastrr - Modern Toast Notifications for React",
     description: "Create beautiful, accessible toast notifications with ease in React applications",
+    images: [
+      {
+        url: 'https://toastrr.vercel.app/toastrr.png',
+        alt: "Toastrr - Modern Toast Notifications for React"
+      }
+    ]
   },
   robots: {
     index: true,
