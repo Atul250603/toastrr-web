@@ -10,6 +10,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Toastrr - Modern Toast Notifications for React",
     description: "Create beautiful, accessible toast notifications with ease in React applications",
+    url: "https://toastrr.vercel.app",
     type: "website",
     locale: "en_US",
     siteName: "Toastrr",
